@@ -1,0 +1,78 @@
+.binary-search-visualizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .controls input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 150px;
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .found {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .not-found {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .steps-container {
+    margin-top: 20px;
+  }
+  
+  .step {
+    margin-bottom: 20px;
+  }
+  
+  .step-info {
+    margin-bottom: 10px;
+  }
+  
+  .array-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .array-item {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .array-item.highlighted {
+    background-color: #f39c12; /* Highlighted array items */
+  }
+  
+  .array-item.mid {
+    background-color: #e74c3c; /* Midpoint item */
+  }
+  

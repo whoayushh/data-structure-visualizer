@@ -1,0 +1,52 @@
+.queue-visualizer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .controls input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 100px;
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .queue-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .queue-item {
+    width: 50px;
+    height: 50px;
+    background-color: #f39c12;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
